@@ -10,4 +10,4 @@ export default function updateStudentGradeByCity(studentObjects, city, newGrades
         studentCopy.grade = studentGradeObj ? studentGradeObj.grade : 'N/A';
         return studentCopy;
       });
-  }
+}

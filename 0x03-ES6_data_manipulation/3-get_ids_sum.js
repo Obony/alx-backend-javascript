@@ -4,4 +4,4 @@ export default function getStudentIdsSum(studentObjects) {
     }
   
     return studentObjects.reduce((sumIds, student) => sumIds + student.id, 0);
-  }
+}
